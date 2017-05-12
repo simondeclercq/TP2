@@ -10,7 +10,13 @@
 	padding: 20px;
 }
 
-#header h1 { margin: 0; color: brown; background-color: dimgrey}
+#header h1 { 
+    margin: 0; 
+    color: brown; 
+    background-color: dimgrey; 
+    text-align: center;
+    font-family: sans-serif;
+}
 
 #navigation
 {
@@ -52,17 +58,18 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+    background-color: ghostwhite;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 #edito h2
 {
-	color: #000;
+	color: brown;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -77,19 +84,25 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+    background-color: ghostwhite;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#news h2 {
+    color: brown;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: dimgrey;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    color: brown
 }
