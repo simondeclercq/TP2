@@ -13,13 +13,14 @@ body {
 {
 	background-color : #3A9B50;
 	padding: 20px;
-color : #92D4A1;
+	color : #92D4A1;
+	
 }
 
 #header h1 { 
 	margin: 0;
 	color : #92D4A1;
-
+	text-align : center;
  }
 
 
@@ -28,19 +29,25 @@ color : #92D4A1;
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #82C38D;
+	
 }
 
 #navigation ul
 {
 	margin: 0;
 	padding: 0;
+	text-align : center;
+	
+	
 }
 
 #navigation ul li
 {
 	list-style-type: none;
 	display: inline;
+	
+
 }
 
 #navigation li a
@@ -98,10 +105,11 @@ color : #92D4A1;
 {
 	clear: both;
 	background-color : #3A9B50;
-	text-align: right;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
 	color : #92D4A1;
+	
 }
 
 a {
