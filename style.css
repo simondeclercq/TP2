@@ -1,3 +1,8 @@
+body {
+	font-family : Arial;
+}
+
+
 #container
 {
 	margin: 0 30px;
@@ -6,11 +11,18 @@
 
 #header
 {
-	background: #ccc;
+	background-color : #3A9B50;
 	padding: 20px;
+color : #92D4A1;
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+	margin: 0;
+	color : #92D4A1;
+
+ }
+
+
 
 #navigation
 {
@@ -51,18 +63,17 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	box-shadow: 0px 0px 6px #000000;	
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color : #92D4A1;
+	color : #0B661F;
 }
 
 #edito h2
 {
-	color: #000;
+	color : #0B661F;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -76,20 +87,30 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color : #92D4A1;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	color : #0B661F;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background-color : #3A9B50;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	color : #92D4A1;
+}
+
+a {
+ color : #0B661F;
+ text-decoration : none
+}
+
+a:hover {
+	background-color : #CD594D;
+	color : #FFB7B0;
+	text-decoration : none
 }
